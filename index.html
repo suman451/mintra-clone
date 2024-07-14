@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="data:image/png;base64,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" sizes="64x64">
+    <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utits.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<body>
+    
+    <header class="containerheader">
+        <nav class="flex space-between">
+            <div class="left flex items-center">
+
+                <img src="https://www.visa.com/images/merchantoffers/2022-05/1653640344835.myntra1.png" alt="">
+                <ul class="flex items-center justify-center uppercase semibold">
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Kids</li>
+                    <li>home & living</li>
+                    <li>beauty</li>
+                    <li>studio</li>
+
+                </ul>
+            </div>
+            <div class="right flex items-center">
+                <input placeholder="Search for products, brands and more" class="   search" value="" >
+                <div class="rightbox">
+                <div>  <i class="fa-solid fa-user"></i> </div>
+                <div class="profile mx-2 semibold">Profile</div>
+                <i class="fa-regular fa-heart"></i>
+                <div class="wishlist mx-2 semibold">Wishlist</div>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <div class="bag mx-2 semibold">Bag</div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section class=" container section1 ">
+    
+
+     
+            <img  class="home-img" src="home.jpg" alt="">
+          
+          
+  
+         
+        </div>
+
+
+
+
+
+
+
+
+
+
+       </div>
+       
+    </section>
+    <section class="img-section">
+    <p class="sub-heading">medal worthy brands to bag</p>
+
+    <div class="box-img">
+        <img class="box-img box"src="box.img1.jpg" alt="">
+        <img class="box-img box" src="boximg2.png" alt="">
+        <img class="box-img box" src="boximg3.jpg" alt="">
+        <img class="box-img box" src="boximg4.jpg" alt="">
+        <img class="box-img box" src="box.img5.jpg" alt="">
+        <img class="box-img box" src="box.img6.jpg" alt="">
+       </div>
+       <div class="global-brands">
+        <p class="sub-heading">Grand Global Brands</p>
+        <img class="box-img box"src="box.img1.jpg" alt="">
+        <img class="box-img box" src="boximg2.png" alt="">
+        <img class="box-img box" src="boximg3.jpg" alt="">
+        <img class="box-img box" src="boximg4.jpg" alt="">
+        <img class="box-img box" src="box.img5.jpg" alt="">
+        <img class="box-img box" src="box.img6.jpg" alt="">
+       </div>
+       <!-- </div> -->
+       <div class="Shop-now-section">
+        <p class="sub-heading">Shop By Category</p>
+        <img class="box-img box"src="shop1.jpg" alt="">
+        <img class="box-img box" src="shop2.jpg" alt="">
+        <img class="box-img box" src="shop3.jpg" alt="">
+        <img class="box-img box" src="shop4.jpg" alt="">
+        <img class="box-img box" src="shop5.jpg" alt="">
+        <img class="box-img box" src="shop6.jpg" alt="">
+        <img class="box-img box" src="shop7.jpg" alt="">
+        <img class="box-img box" src="shop8.jpg" alt="">
+        <img class="box-img box" src="shop9.jpg" alt="">
+        <img class="box-img box" src="shop10.jpg" alt="">
+        <img class="box-img box" src="shop11.jpg" alt="">
+        <img class="box-img box" src="shop12.jpg" alt="">
+        <img class="box-img box" src="shop13.jpg" alt="">
+        <img class="box-img box" src="shop14.jpg" alt="">
+        <img class="box-img box" src="shop15.jpg" alt="">
+        <img class="box-img box" src="shop16.jpg" alt="">
+        <img class="box-img box" src="shop17.jpg" alt="">
+        <img class="box-img box" src="shop18.jpg" alt="">
+        <img class="box-img box" src="shop19.jpg" alt="">
+        <img class="box-img box" src="shop20.jpg" alt="">
+        <img class="box-img box" src="shop21.jpg" alt="">
+    </section>
+<section class="tall">
+        <footer>
+            <div class="footer-text">
+                <div class="couloumn1">
+                 <b>ONLINE SHOPPING</b>
+
+                      <p>Men</p>
+                      <p>Women</p>
+                       <p>Kids</p>
+                       <p>Home & Living</p>
+                       <p>Beauty</p>
+                       <p>Gift Cards</p>
+                       <p>Myntra Inside</p>
+                </div>
+                <div class="couloumn2">
+                    <b>CUSTOMER POLICIES</b>
+                    <p>Contact Us</p>
+                    <p>FAQ</p>
+                    <p>T&C</p>
+                    <p>Terms Of Use</p>
+                    <p>Track Orders</p>
+                    <p>Shipping</p>
+                    <p>Cancellation</p>
+                    <p>Returnes</p>
+                    <p>Privacy Policy</p>
+                    <p>Grievance Officer</p>
+
+
+
+                </div>
+                <div class="couloumn3">
+                    <b>EXPERIENCE MYNTRA APP ON MOBILE</b>
+                    <div class="gooogle-images">
+                 <img src="https://webstockreview.net/images/google-play-store-png-7.png" alt="">
+                <div class="    ">
+                    <b>KEEP IN TOUCH</b>
+                  <div class="socialmedia-icons">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                  </div>
+                </div>
+                </div>
+                </div>
+                <div class="couloumn4">
+                    <img class="original"  src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png" alt="">
+                    100% ORIGINAL <span class="grey">guarantee for <br> all products at myntra.com</span>
+                    <div class="return">
+                        <img class="teen" class="original-icon" src="https://assets.myntassets.com/assets/images/retaillabs/2023/5/22/becb1b16-86cc-4e78-bdc7-7801c17947831684737106127-Return-Window-image.png" alt="">
+                        Return within 14 days <span class="grey">of <br>receiving your order</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+           <p> Copyright &copy; myntra.com | All Right Reserved</p>
+           
+     
+
+        </footer>
+    </section>
+
+
+       </div>
+</body>
+
+</html>
